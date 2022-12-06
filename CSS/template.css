@@ -1,0 +1,818 @@
+/* RESET CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GLOBAL SCC */
+
+body {
+    background-color: #f1f1f1;
+}
+
+.material-symbols-outlined {
+    color: #fff;  
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' -25,
+  'opsz' 48
+}
+
+h1, h2, h3, h4, h5, h5 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p, span, li {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* MOBILE */
+
+.primeira-dobra {
+    background-image:url(../img/olavo-de-carvalho-mobile.png);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 27px;
+    color: #e08f23;
+}
+
+.primeiradobra-headline {
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+.primeiradobra-texto {
+    max-width: 230px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.primeiradobra-texto p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.primeiradobra-symbol-cta {
+    padding-top: 250px;
+    margin-left: 25px;
+}
+
+.CTA {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: #fff;
+    padding-right: 10px;
+}
+
+.segunda-dobra, .terceira-dobra, .quarta-dobra, .quinta-dobra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 60px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    
+}
+
+p {
+    font-size: 14px;
+    color: #000;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 12px;
+}
+
+.detalhe-headline {
+    border-top: solid 5px #e08f23;
+    width: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#video-olavo {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.imagens-olavo {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    font-size: 12px;
+    color: #000;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: decimal;
+    font-size: 12px;
+    color: #000;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    list-style-position: inside;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button { 
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #e08f23;
+    background-color: #f1f1f1;
+    border: solid 1px #e08f23;
+}
+
+button:hover {
+    color: #f1f1f1;
+    background-color: #e08f23;
+    border: solid 1px #e08f23;
+}
+
+footer {
+    background-color: #363636;
+    padding: 40px 25px 30px;
+    margin-top: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avisolegal {
+    border-bottom: solid 1px #585858;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.avisolegal span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 12px;
+    color: #fff;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 12px;
+    margin-top: 25px;
+}
+
+footer span {
+    font-size: 12px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+a {
+    font-size: 12px;
+    color: #fff;
+}
+
+a:hover {
+    color: #e08f23;
+}
+
+/* RESPONSIVO: TABLET 760 */
+
+@media (min-width: 490px) and (max-width: 960px) {
+
+    .primeira-dobra {
+        background-image:url(../img/olavo-de-carvalho-tablet.png);
+        background-position: center;
+        background-size: cover;
+        height: 550px;
+        width: auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    h1 {
+        font-size: 40px;
+        color: #e08f23;
+    }
+    
+    .primeiradobra-headline {
+        margin-left: 35px;
+        margin-top: 80px;
+    }
+    
+    .primeiradobra-texto {
+        max-width: 350px;
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    
+    .primeiradobra-texto p {
+        font-size: 17px;
+        color: #fff;
+        line-height: 35px;
+    }
+    
+    .primeiradobra-symbol-cta {
+        padding-top: 200px;
+        margin-left: 35px;
+    }
+    
+    .CTA {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: #fff;
+        padding-right: 10px;
+    }
+    
+    .segunda-dobra, .terceira-dobra, .quarta-dobra, .quinta-dobra {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 60px;
+    }
+    
+    h2 {
+        font-size: 25px;
+        color: #000;
+        font-weight: bold;
+        
+    }
+    
+    p {
+        font-size: 17px;
+        color: #000;
+        line-height: 25px;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+    
+    .detalhe-headline {
+        border-top: solid 5px #e08f23;
+        width: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    #video-olavo {
+        width: 100%;
+        height: 400px;
+        margin-top: 20px;
+    }
+    
+    .imagens-olavo {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    ul {
+        list-style-type: disc;
+        font-size: 14px;
+        color: #000;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        list-style-position: inside;
+    }
+
+    li {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    
+    ol {
+        list-style-type: decimal;
+        font-size: 14px;
+        color: #000;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        list-style-position: inside;
+    }
+    
+    button { 
+        width: 100%;
+        height: 70px;
+        margin-top: 25px;
+        
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+        color: #e08f23;
+        background-color: #f1f1f1;
+        border: solid 1px #e08f23;
+    }
+    
+    button:hover {
+        color: #f1f1f1;
+        background-color: #e08f23;
+        border: solid 1px #e08f23;
+    }
+    
+    footer {
+        background-color: #363636;
+        padding: 40px 25px 30px;
+        margin-top: 250px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .avisolegal {
+        border-bottom: solid 1px #585858;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .avisolegal span {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    footer p {
+        font-size: 12px;
+        color: #fff;
+        line-height: 22px;
+        text-align: justify;
+        margin-bottom: 12px;
+        margin-top: 25px;
+    }
+    
+    footer span {
+        font-size: 12px;
+        color: #fff;
+        padding-bottom: 30px;
+    }
+    
+    a {
+        font-size: 12px;
+        color: #fff;
+    }
+    
+    a:hover {
+        color: #e08f23;
+    }
+}
+
+/* DESKTOP 960 */
+
+@media (min-width: 960px) {
+    .primeira-dobra {
+        background-image:url(../img/olavo-de-carvalho-1300.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 650px;
+        width: auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    h1 {
+        font-size: 65px;
+        color: #e08f23;
+    }
+    
+    .primeiradobra-headline {
+        margin-left: 35px;
+        margin-top: 30px;
+    }
+    
+    .primeiradobra-texto {
+        max-width: 550px;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+    
+    .primeiradobra-texto p {
+        font-size: 18px;
+        color: #fff;
+        line-height: 25px;
+    }
+    
+    .primeiradobra-symbol-cta {
+        padding-top: 280px;
+        margin-left: 35px;
+    }
+    
+    .CTA {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: #fff;
+        padding-right: 10px;
+    }
+    
+    .segunda-dobra, .terceira-dobra, .quarta-dobra, .quinta-dobra {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        max-width: 750px;
+    }
+
+
+    h2 {
+        font-size: 35px;
+        color: #000;
+        font-weight: bold;
+        max-width: 800px;
+        
+    }
+    
+    p {
+        font-size: 15px;
+        color: #000;
+        line-height: 25px;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+    
+    .detalhe-headline {
+        border-top: solid 7px #e08f23;
+        width: 60px;
+        margin-top: 30px;
+        margin-bottom: 45px;
+    }
+    
+    #video-olavo {
+        width: 100%;
+        height: 580px;
+        margin-top: 20px;
+    }
+    
+    .imagens-olavo {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    ul {
+        list-style-type: disc;
+        font-size: 14px;
+        color: #000;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        list-style-position: inside;
+    }
+
+    li {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    
+    ol {
+        list-style-type: decimal;
+        font-size: 14px;
+        color: #000;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        list-style-position: inside;
+    }
+    
+    button { 
+        width: 100%;
+        height: 80px;
+        margin-top: 25px;
+        
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #e08f23;
+        background-color: #f1f1f1;
+        border: solid 1px #e08f23;
+    }
+    
+    button:hover {
+        color: #f1f1f1;
+        background-color: #e08f23;
+        border: solid 1px #e08f23;
+    }
+    
+    footer {
+        background-color: #363636;
+        padding: 40px 25px 30px;
+        margin-top: 250px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .avisolegal {
+        border-bottom: solid 1px #585858;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        width: 700px;
+    }
+    
+    .avisolegal span {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    footer p {
+        font-size: 12px;
+        color: #fff;
+        line-height: 22px;
+        text-align: justify;
+        margin-bottom: 12px;
+        margin-top: 25px;
+    }
+    
+    footer span {
+        font-size: 12px;
+        color: #fff;
+        padding-bottom: 30px;
+    }
+    
+    a {
+        font-size: 12px;
+        color: #fff;
+    }
+    
+    a:hover {
+        color: #e08f23;
+    }
+}
+
+/* DESKTOP 1400+ */
+
+@media (min-width: 1400px) {
+    .primeira-dobra {
+        background-image:url(../img/olavo-de-carvalho-1300.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 850px;
+        width: auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    h1 {
+        font-size: 65px;
+        color: #e08f23;
+    }
+    
+    .primeiradobra-headline {
+        margin-left: 35px;
+        margin-top: 100px;
+    }
+    
+    .primeiradobra-texto {
+        max-width: 550px;
+        margin-top: 30px;
+        margin-left: 35px;
+    }
+    
+    .primeiradobra-texto p {
+        font-size: 18px;
+        color: #fff;
+        line-height: 25px;
+    }
+    
+    .primeiradobra-symbol-cta {
+        padding-top: 400px;
+        margin-left: 35px;
+    }
+    
+    .CTA {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        color: #fff;
+        padding-right: 10px;
+    }
+    
+    .segunda-dobra, .terceira-dobra, .quarta-dobra, .quinta-dobra {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        max-width: 750px;
+    }
+
+
+    h2 {
+        font-size: 45px;
+        color: #000;
+        font-weight: bold;
+        max-width: 800px;
+        
+    }
+    
+    p {
+        font-size: 17px;
+        color: #000;
+        line-height: 25px;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+    
+    .detalhe-headline {
+        border-top: solid 7px #e08f23;
+        width: 60px;
+        margin-top: 30px;
+        margin-bottom: 45px;
+    }
+    
+    #video-olavo {
+        width: 100%;
+        height: 580px;
+        margin-top: 20px;
+    }
+    
+    .imagens-olavo {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    ul {
+        list-style-type: disc;
+        font-size: 15px;
+        color: #000;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        list-style-position: inside;
+    }
+
+    li {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    
+    ol {
+        list-style-type: decimal;
+        font-size: 15px;
+        color: #000;
+        line-height: 20px;
+        text-align: justify;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        list-style-position: inside;
+    }
+    
+    button { 
+        width: 100%;
+        height: 80px;
+        margin-top: 25px;
+        
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #e08f23;
+        background-color: #f1f1f1;
+        border: solid 1px #e08f23;
+    }
+    
+    button:hover {
+        color: #f1f1f1;
+        background-color: #e08f23;
+        border: solid 1px #e08f23;
+    }
+    
+    footer {
+        background-color: #363636;
+        padding: 40px 25px 30px;
+        margin-top: 250px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .avisolegal {
+        border-bottom: solid 1px #585858;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        width: 700px;
+    }
+    
+    .avisolegal span {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    
+    footer p {
+        font-size: 15px;
+        color: #fff;
+        line-height: 22px;
+        text-align: justify;
+        margin-bottom: 12px;
+        margin-top: 25px;
+    }
+    
+    footer span {
+        font-size: 12px;
+        color: #fff;
+        padding-bottom: 30px;
+    }
+    
+    a {
+        font-size: 15px;
+        color: #fff;
+    }
+    
+    a:hover {
+        color: #e08f23;
+    }
+}
